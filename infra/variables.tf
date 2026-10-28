@@ -6,3 +6,7 @@ variable "version_argocd" {
   description = "Version argocd"
   type        = string
 }
+variable "depot" {
+  description = "Lien du repo"
+  type        = string
+}
